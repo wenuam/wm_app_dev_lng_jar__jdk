@@ -208,8 +208,8 @@ java/lang/ref/Reference$1
 java/lang/ref/Finalizer$FinalizerThread
 jdk/internal/access/JavaLangAccess
 java/lang/System$2
-jdk/internal/util/SystemProps
 jdk/internal/misc/VM
+jdk/internal/util/SystemProps
 jdk/internal/util/SystemProps$Raw
 java/lang/StringConcatHelper
 java/lang/VersionProps
@@ -342,7 +342,6 @@ java/nio/DirectLongBufferU
 java/util/zip/ZipConstants
 java/util/zip/ZipFile
 java/util/jar/JarFile
-sun/security/action/GetBooleanAction
 jdk/internal/access/JavaUtilZipFileAccess
 java/util/zip/ZipFile$1
 jdk/internal/access/JavaUtilJarAccess
@@ -404,6 +403,7 @@ java/net/URLStreamHandler
 sun/net/www/protocol/file/Handler
 sun/net/util/IPAddressUtil
 jdk/internal/util/Preconditions
+sun/net/www/protocol/jar/Handler
 jdk/internal/module/ServicesCatalog
 jdk/internal/loader/AbstractClassLoaderValue
 jdk/internal/loader/ClassLoaderValue
@@ -510,6 +510,7 @@ jdk/internal/access/JavaLangInvokeAccess
 java/lang/invoke/MethodHandleImpl$1
 java/lang/invoke/AbstractValidatingLambdaMetafactory
 java/lang/invoke/InnerClassLambdaMetafactory
+sun/security/action/GetBooleanAction
 jdk/internal/org/objectweb/asm/Handle
 jdk/internal/org/objectweb/asm/ConstantDynamic
 java/lang/invoke/MethodHandleInfo
@@ -840,7 +841,6 @@ java/security/PrivilegedExceptionAction
 jdk/internal/loader/URLClassPath$3
 jdk/internal/loader/URLClassPath$Loader
 jdk/internal/loader/URLClassPath$JarLoader
-sun/net/www/protocol/jar/Handler
 jdk/internal/loader/URLClassPath$JarLoader$1
 jdk/internal/loader/FileURLMapper
 java/nio/file/FileSystems$DefaultFileSystemHolder
