@@ -1,7 +1,8 @@
-## Little Color Management System (LCMS) v2.15
+## Little Color Management System (LCMS) v2.14
 
 ### LCMS License
 <pre>
+
 README.1ST file information
 
 LittleCMS core is released under MIT License
@@ -9,7 +10,7 @@ LittleCMS core is released under MIT License
 ---------------------------------
 
 Little CMS
-Copyright (c) 1998-2023 Marti Maria Saguer
+Copyright (c) 1998-2022 Marti Maria Saguer
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -31,6 +32,7 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ---------------------------------
+
 The below license applies to the following files:
 liblcms/cmssm.c
 
@@ -42,11 +44,11 @@ SoftSurfer makes no warranty for this code, and cannot be held
 liable for any real or imagined damage resulting from its use.
 Users of this code must verify correctness for their application.
 
+
 </pre>
 
 ### AUTHORS File Information
 ```
-
 
 Main Author
 ------------
@@ -88,15 +90,11 @@ Mark Allen
 Noel Carboni
 Sergei Trofimovic
 Philipp Knechtges
-Amyspark
-Lovell Fuller
-Eli Schwartz
 
 Special Thanks
 --------------
 Artifex software
 AlienSkin software
-libVIPS
 Jan Morovic
 Jos Vernon (WebSupergoo)
 Harald Schneider (Maxon)
@@ -104,5 +102,6 @@ Christian Albrecht
 Dimitrios Anastassakis
 Lemke Software
 Tim Zaman
+
 
 ```
