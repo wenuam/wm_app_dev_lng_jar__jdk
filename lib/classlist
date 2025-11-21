@@ -233,7 +233,6 @@ java/lang/invoke/MethodHandleImpl$Intrinsic
 java/lang/invoke/MethodHandleImpl$IntrinsicMethodHandle
 java/lang/invoke/MethodHandleInfo
 java/lang/invoke/MethodHandleNatives
-java/lang/invoke/MethodHandleNatives$CallSiteContext
 java/lang/invoke/MethodHandleStatics
 java/lang/invoke/MethodHandles
 java/lang/invoke/MethodHandles$1
@@ -736,6 +735,7 @@ java/util/concurrent/ExecutorService
 java/util/concurrent/ForkJoinPool
 java/util/concurrent/ForkJoinPool$2
 java/util/concurrent/ForkJoinPool$DefaultForkJoinWorkerThreadFactory
+java/util/concurrent/ForkJoinPool$DefaultForkJoinWorkerThreadFactory$1
 java/util/concurrent/ForkJoinPool$ForkJoinWorkerThreadFactory
 java/util/concurrent/ForkJoinPool$ManagedBlocker
 java/util/concurrent/ForkJoinPool$WorkQueue
