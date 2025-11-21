@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2003, 2017, Oracle and/or its affiliates. All rights reserved.
+ * Copyright (c) 2003, 2022, Oracle and/or its affiliates. All rights reserved.
  * ORACLE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
  *
  *
@@ -262,7 +262,7 @@ struct _jdwpTransportEnv {
     }
 
     /*  SetTransportConfiguration added in JDWPTRANSPORT_VERSION_1_1 */
-    jdwpTransportError SetTransportConfiguration(jdwpTransportEnv* env,
+    jdwpTransportError SetTransportConfiguration(jdwpTransportConfiguration *config) {
         return functions->SetTransportConfiguration(this, config);
     }
 
