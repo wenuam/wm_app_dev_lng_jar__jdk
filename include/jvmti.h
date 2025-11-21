@@ -45,7 +45,7 @@ enum {
     JVMTI_VERSION_19  = 0x30130000,
     JVMTI_VERSION_21  = 0x30150000,
 
-    JVMTI_VERSION = 0x30000000 + (22 * 0x10000) + ( 0 * 0x100) + 0  /* version: 22.0.0 */
+    JVMTI_VERSION = 0x30000000 + (25 * 0x10000) + ( 0 * 0x100) + 0  /* version: 25.0.0 */
 };
 
 JNIEXPORT jint JNICALL
@@ -1401,8 +1401,9 @@ typedef struct jvmtiInterface_1_ {
     jmethodID method,
     jint* modifiers_ptr);
 
-  /*   67 :  RESERVED */
-  void *reserved67;
+  /*   67 : Clear Frame Pop */
+  jvmtiError (JNICALL *ClearAllFramePops) (jvmtiEnv* env,
+    jthread thread);
 
   /*   68 : Get Max Locals */
   jvmtiError (JNICALL *GetMaxLocals) (jvmtiEnv* env,
@@ -2014,6 +2015,10 @@ struct _jvmtiEnv {
   jvmtiError NotifyFramePop(jthread thread,
             jint depth) {
     return functions->NotifyFramePop(this, thread, depth);
+  }
+
+  jvmtiError ClearAllFramePops(jthread thread) {
+    return functions->ClearAllFramePops(this, thread);
   }
 
   jvmtiError ForceEarlyReturnObject(jthread thread,
